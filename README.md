@@ -7,5 +7,5 @@ adb shell chmod +x /data/local/tmp/DumpDex
 adb shell
 su 
 cd /data/local/tmp
-./hunter -pid '$(pidof com.example.app)' -o <output_dir>
+./DumpDex -pid '$(pidof com.example.app)' -o <output_dir>
 ```
